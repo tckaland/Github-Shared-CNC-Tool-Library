@@ -5,7 +5,7 @@
 
 #### For Mac/OSX
 
-1. Trykk på **Code** og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pc'en din vha https, ssh eller cli)
+1. Trykk på **Code** og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pcen din vha. https, ssh eller cli)
 
 2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.
 ######          :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
