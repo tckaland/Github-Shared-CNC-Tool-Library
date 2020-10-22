@@ -24,7 +24,7 @@
 :warning: *Med denne måten så vil man ikke kunne oppdatere verktøybiblioteket igjennom git*
 
 1. Last ned repoen som en .zip og ekspander .zip-folderen.
-2. Åpne Fusion 360, gå til **CAM/Manufature-arbeidsområ¨det** og trykk på ![Tool Library Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibrarySymbol.png?raw=true) for å komme til *Tool Library*. 
+2. Åpne Fusion 360, gå til **CAM/Manufature-arbeidsområdet** og trykk på ![Tool Library Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibrarySymbol.png?raw=true) for å komme til *Tool Library*. 
 3. Importer verkstedet sitt verktøysbibliotek for CNCmaskinen ved å trykke på importer ![Import Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ImportLibrarySymbol.png?raw=true) og velg **IPD Datron.json** som befinner seg i *.zip* filen du lastet ned fra GitHub.
 
 
