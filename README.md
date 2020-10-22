@@ -1,21 +1,23 @@
 # Github-Shared-CNC-Tool-Library
 
-
  
-## Hvordan importere til Fusion360
-
-
-### Nais måte (som også oppdateres automatisk)
-
-Bla bla bla forklar hvordan man importerer biblioteket til fusin360 ved å lage et github-repo i Fusion sin *local folder*
+### Hvordan importere til Fusion360
 
 #### For Mac/OSX
 
 1. Trykk på **Code** og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pc'en din vha https, ssh eller cli)
+
 2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**. Dersom Library mappen ikke vises i Finder, trykk **cmd + J** og huk av **Show Library Folder**.
-3. Done I guess?
+
+3. For å sjekke at biblioteket er importert, åpne Fusion360, gå til CAM/Manufacture-arbeidsområdet og trykk på dette 
+![Tool Library Button](https://raw.githubusercontent.com/tckaland/Github-Shared-CNC-Tool-Library/master/ToolLibrarySymbol.png?token=AGJOPISMLN5R7GKHMCE44RC7SFU3U)
+ symbolet. 
+ ![Tool Library Location](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibraryInFusion.png?raw=true)
+ Verktøybiblioteket til CNCen på verkstedet vil ligge under Local -> Github-Shared-CNC-Tool-Library -> IPD Datron
+
+3. Oppdater repoet med jevne mellomrom gjennom git for å holde verktøybiblioteket og *feeds & speeds* oppdatert.
 
 
-### Kjip, men enklere måte
+### Alternativ måte
 
-Bare last ned repoen og importer i fusion. Noen bilder er sikkert fint her. Med denne måten så vil ikke biblioteket oppdatere seg automatisk dersom verktøy flytter på seg eller nye *feeds & speeds* blir lagt til. 
+Bare last ned repoen og importer i fusion. Noen bilder er sikkert fint her. Med denne måten så vil man ikke kunne oppdatere verktøybiblioteket igjennom git...
