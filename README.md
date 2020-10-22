@@ -1,6 +1,9 @@
 # Github-Shared-CNC-Tool-Library
 
- 
+### Hva er dette?
+
+Her kommer det noe tekst som forklarer formålet med repoen
+
 ### Hvordan importere til Fusion360
 
 #### For Mac/OSX
