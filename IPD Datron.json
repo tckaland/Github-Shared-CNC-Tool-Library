@@ -35,7 +35,7 @@
                         "guid": "6290d8a2-4cae-4626-9890-a8c28ff84615",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Finishing",
+                        "name": "Finishing Metal",
                         "stepdown": 0.5,
                         "stepover": 3,
                         "tool-coolant": "mist",
@@ -45,8 +45,8 @@
                         "v_f": 1500,
                         "v_f_leadIn": 1500,
                         "v_f_leadOut": 1500,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 1000
                     },
                     {
                         "f_n": 0.011111111111111,
@@ -54,7 +54,7 @@
                         "guid": "b19cb650-748a-481e-b845-4d4fd962e9bb",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Slotting",
+                        "name": "Slotting Metal",
                         "stepdown": 1.5,
                         "tool-coolant": "mist",
                         "use-stepdown": true,
@@ -63,8 +63,8 @@
                         "v_f": 3000,
                         "v_f_leadIn": 3000,
                         "v_f_leadOut": 3000,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 1500
                     },
                     {
                         "f_n": 0.011111111111111,
@@ -72,7 +72,7 @@
                         "guid": "78dd4e82-0b1a-4bf4-9e7f-d5089e9e4cd4",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Adaptive Clearing",
+                        "name": "Adaptive Clearing Metal",
                         "stepdown": 6,
                         "stepover": 0.6,
                         "tool-coolant": "mist",
@@ -82,8 +82,8 @@
                         "v_f": 6000,
                         "v_f_leadIn": 6000,
                         "v_f_leadOut": 6000,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 1500
                     }
                 ]
             },
@@ -1063,6 +1063,5 @@
             "unit": "millimeters",
             "vendor": "Datron"
         }
-    ],
-    "version": 12
+    ]
 }
