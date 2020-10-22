@@ -1,6 +1,9 @@
 # Github-Shared-CNC-Tool-Library
+
+
  
 ## Hvordan importere til Fusion360
+
 
 ### Nais måte (som også oppdateres automatisk)
 
@@ -8,9 +11,10 @@ Bla bla bla forklar hvordan man importerer biblioteket til fusin360 ved å lage 
 
 #### For Mac/OSX
 
-1. Trykk på *Code* og åpne repoet i *GitHub Desktop* (Eventuelt klon repoet til pc'en din vha https, ssh eller cli)
-2. Lagre repoet i DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local. Dersom Library mappen ikke vises i Finder, trykk *cmd + J* og huk av *Show Library Folder*.
+1. Trykk på **Code** og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pc'en din vha https, ssh eller cli)
+2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**. Dersom Library mappen ikke vises i Finder, trykk **cmd + J** og huk av **Show Library Folder**.
 3. Done I guess?
+
 
 ### Kjip, men enklere måte
 
