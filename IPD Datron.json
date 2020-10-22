@@ -223,7 +223,7 @@
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": true,
-                        "v_c": 219.91148575128562,
+                        "v_c": 219.9114857512856,
                         "v_f": 1500,
                         "v_f_leadIn": 1500,
                         "v_f_leadOut": 1500,
@@ -401,7 +401,7 @@
                 "CSP": false,
                 "DC": 6,
                 "HAND": true,
-                "LB": 31.500000000000004,
+                "LB": 31.50000000000001,
                 "LCF": 22,
                 "NOF": 1,
                 "OAL": 57,
@@ -429,7 +429,7 @@
                         "guid": "a41d9c15-97cb-4642-bd63-be45c4eed612",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Finishing",
+                        "name": "Finishing Metal",
                         "stepdown": 0.5,
                         "stepover": 3,
                         "tool-coolant": "mist",
@@ -439,8 +439,8 @@
                         "v_f": 1500,
                         "v_f_leadIn": 1500,
                         "v_f_leadOut": 1500,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 1000
                     },
                     {
                         "f_n": 0.011111111111111,
@@ -448,7 +448,7 @@
                         "guid": "d46ac9ea-b9d9-439f-bf6e-63c967a7f927",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Slotting",
+                        "name": "Slotting Metal",
                         "stepdown": 1.5,
                         "tool-coolant": "mist",
                         "use-stepdown": true,
@@ -457,8 +457,8 @@
                         "v_f": 3000,
                         "v_f_leadIn": 3000,
                         "v_f_leadOut": 3000,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 1500
                     },
                     {
                         "f_n": 0.011111111111111,
@@ -466,7 +466,7 @@
                         "guid": "3514c611-faac-4c3f-abe9-7d56aec74507",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Adaptive Clearing",
+                        "name": "Adaptive Clearing Metal",
                         "stepdown": 6,
                         "stepover": 0.6,
                         "tool-coolant": "mist",
@@ -476,8 +476,8 @@
                         "v_f": 6000,
                         "v_f_leadIn": 6000,
                         "v_f_leadOut": 6000,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 2000
                     }
                 ]
             },
@@ -868,7 +868,7 @@
                         "tool-coolant": "mist",
                         "use-stepdown": false,
                         "use-stepover": false,
-                        "v_c": 212.05750411731105,
+                        "v_c": 212.05750411731103,
                         "v_f": 1000,
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
@@ -1063,5 +1063,6 @@
             "unit": "millimeters",
             "vendor": "Datron"
         }
-    ]
+    ],
+    "version": 12
 }
