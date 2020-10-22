@@ -8,7 +8,7 @@
 1. Trykk på **Code** og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pc'en din vha https, ssh eller cli)
 
 2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.
-###### :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
+###### '\t' :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
 ![Add Repo GitHub Desktop](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/GitHubDesktopAddRepo.png?raw=true)
 
 
