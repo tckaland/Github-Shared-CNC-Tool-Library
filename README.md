@@ -10,7 +10,7 @@
 2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**. Dersom Library mappen ikke vises i Finder, trykk **cmd + J** og huk av **Show Library Folder**.
 
 3. For å sjekke at biblioteket er importert, åpne Fusion360, gå til CAM/Manufacture-arbeidsområdet og trykk på dette 
-![Tool Library Button](https://raw.githubusercontent.com/tckaland/Github-Shared-CNC-Tool-Library/master/ToolLibrarySymbol.png?token=AGJOPISMLN5R7GKHMCE44RC7SFU3U)
+![Tool Library Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibrarySymbol.png?raw=true)
  symbolet. 
  ![Tool Library Location](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibraryInFusion.png?raw=true)
  Verktøybiblioteket til CNCen på verkstedet vil ligge under Local -> Github-Shared-CNC-Tool-Library -> IPD Datron
