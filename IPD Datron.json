@@ -2,6 +2,61 @@
     "data": [
         {
             "BMC": "hss",
+            "description": "Slot 5.5mm",
+            "geometry": {
+                "CSP": false,
+                "DC": 5.5,
+                "HAND": true,
+                "LB": 24,
+                "LCF": 2,
+                "NOF": 6,
+                "OAL": 50,
+                "RE": 0,
+                "SFDM": 3,
+                "shoulder-length": 5
+            },
+            "guid": "153cd52c-5369-4b78-b0d2-80374d1c7817",
+            "last_modified": 1603531029363,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.033333333333333,
+                        "f_z": 0.016666666666667,
+                        "guid": "3c9af0b4-9c7e-4b6d-adf2-1e76b16147af",
+                        "n": 10000,
+                        "n_ramp": 10000,
+                        "name": "Default preset",
+                        "tool-coolant": "mist",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 172.78759594743858,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "slot mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
             "description": "6mm single flute",
             "geometry": {
                 "CSP": false,
