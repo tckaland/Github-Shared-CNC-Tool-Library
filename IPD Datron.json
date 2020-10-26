@@ -16,20 +16,18 @@
                 "shoulder-length": 5
             },
             "guid": "153cd52c-5369-4b78-b0d2-80374d1c7817",
-            "last_modified": 1603531029363,
             "post-process": {
                 "break-control": false,
                 "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
-                "live": true,
-                "manual-tool-change": true,
-                "number": 0,
+                "diameter-offset": 21,
+                "length-offset": 21,
+                "live": false,
+                "manual-tool-change": false,
+                "number": 21,
                 "turret": 0
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -741,7 +739,7 @@
         },
         {
             "BMC": "hss",
-            "description": "Finishing",
+            "description": "",
             "geometry": {
                 "CSP": false,
                 "DC": 0.6,
@@ -757,11 +755,11 @@
             "post-process": {
                 "break-control": true,
                 "comment": "",
-                "diameter-offset": 0,
-                "length-offset": 0,
+                "diameter-offset": 20,
+                "length-offset": 20,
                 "live": true,
                 "manual-tool-change": false,
-                "number": 0,
+                "number": 20,
                 "turret": 0
             },
             "product-id": "",
@@ -1118,5 +1116,6 @@
             "unit": "millimeters",
             "vendor": "Datron"
         }
-    ]
+    ],
+    "version": 12
 }
