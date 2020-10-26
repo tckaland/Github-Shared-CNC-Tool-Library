@@ -1115,6 +1115,376 @@
             "type": "flat end mill",
             "unit": "millimeters",
             "vendor": "Datron"
+        },
+        {
+            "BMC": "hss",
+            "description": "3 flute rougher",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 31,
+                "LCF": 13,
+                "NOF": 3,
+                "OAL": 57,
+                "SFDM": 6,
+                "shoulder-length": 20
+            },
+            "guid": "4bf3d5fa-1255-44d2-92e9-80fc29bc08b4",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 22,
+                "length-offset": 22,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 22,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.016666666666667,
+                        "guid": "bc9d339b-eede-4dcc-afa9-784dbc69677f",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 376.9911184307752,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 1000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 31,
+                "LCF": 13,
+                "NOF": 4,
+                "OAL": 58,
+                "SFDM": 6,
+                "shoulder-length": 14
+            },
+            "guid": "60c24b38-88c7-497a-8e04-79d77f3a9171",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 23,
+                "length-offset": 23,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 23,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.0125,
+                        "guid": "8692a434-e9b3-400d-9630-cc268d50c58f",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 314.15926535897927,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 1000
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 26,
+                "LCF": 12,
+                "NOF": 4,
+                "OAL": 58,
+                "SFDM": 6,
+                "shoulder-length": 14
+            },
+            "guid": "beb27503-1bf9-416c-a4b7-2cb156fd2414",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 24,
+                "length-offset": 24,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 24,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.066666666666667,
+                        "f_z": 0.05,
+                        "guid": "5ec0be21-bf3f-4bf6-b249-c5e8b00e723c",
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 62.83185307179586,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 23,
+                "LCF": 6,
+                "NOF": 2,
+                "OAL": 54,
+                "SFDM": 6,
+                "shoulder-length": 16
+            },
+            "guid": "145ad442-290b-42d8-bb2f-56ec1633f960",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 25,
+                "length-offset": 25,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 25,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.025,
+                        "guid": "c270ec5a-4c69-4e6c-9726-2dc578019763",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 376.9911184307752,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "Steep",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 33,
+                "LCF": 28,
+                "NOF": 2,
+                "OAL": 53,
+                "SFDM": 6,
+                "shoulder-length": 29
+            },
+            "guid": "272e5a7f-43a4-451b-92a5-1b0abb8ebf99",
+            "last_modified": 1603723658689,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 26,
+                "length-offset": 26,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 26,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.025,
+                        "guid": "40ed1202-a614-46b9-a230-ce27274aee04",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 376.9911184307752,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 25,
+                "LCF": 5,
+                "NOF": 2,
+                "OAL": 58,
+                "SFDM": 6,
+                "shoulder-length": 5
+            },
+            "guid": "216b016a-239b-4d4d-8404-84e1422ff93b",
+            "last_modified": 1603723840317,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 27,
+                "length-offset": 27,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 27,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.011111111111111,
+                        "f_z": 0.016666666666667,
+                        "guid": "39e1c8ec-1e1f-4ab8-a117-e37f83475a48",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 282.7433388230814,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 53,
+                "LCF": 7,
+                "NOF": 2,
+                "OAL": 75,
+                "SFDM": 6,
+                "shoulder-length": 20
+            },
+            "guid": "7debec82-0d75-4ea1-a768-469f314af702",
+            "last_modified": 1603724092678,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 28,
+                "length-offset": 28,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 28,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.011111111111111,
+                        "f_z": 0.016666666666667,
+                        "guid": "24cbcd85-6b96-41a5-9ef1-82cada76b40c",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 376.9911184307752,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
         }
     ],
     "version": 12
