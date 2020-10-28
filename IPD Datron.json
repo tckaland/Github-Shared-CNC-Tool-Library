@@ -31,16 +31,17 @@
             "start-values": {
                 "presets": [
                     {
-                        "f_n": 0.033333333333333,
-                        "f_z": 0.016666666666667,
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.008333333333333,
                         "guid": "3c9af0b4-9c7e-4b6d-adf2-1e76b16147af",
-                        "n": 10000,
+                        "n": 20000,
                         "n_ramp": 10000,
-                        "name": "Default preset",
+                        "name": "Side Slotting Metal",
+                        "stepover": 0.1,
                         "tool-coolant": "mist",
                         "use-stepdown": false,
-                        "use-stepover": false,
-                        "v_c": 172.78759594743858,
+                        "use-stepover": true,
+                        "v_c": 345.5751918948772,
                         "v_f": 1000,
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
@@ -324,17 +325,18 @@
                         "guid": "8c248eee-43ee-4eae-b282-b76b2f1c7f84",
                         "n": 25000,
                         "n_ramp": 25000,
-                        "name": "Finishing",
-                        "stepdown": 0.5,
+                        "name": "Finishing Metal",
+                        "stepdown": 0.1,
+                        "stepover": 10,
                         "tool-coolant": "mist",
                         "use-stepdown": true,
-                        "use-stepover": false,
+                        "use-stepover": true,
                         "v_c": 942.477796076938,
                         "v_f": 1500,
                         "v_f_leadIn": 1500,
                         "v_f_leadOut": 1500,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 333.3333333333331
                     }
                 ]
             },
@@ -454,7 +456,7 @@
                 "CSP": false,
                 "DC": 6,
                 "HAND": true,
-                "LB": 31.50000000000001,
+                "LB": 31.500000000000018,
                 "LCF": 22,
                 "NOF": 1,
                 "OAL": 57,
@@ -734,60 +736,6 @@
                 ]
             },
             "type": "chamfer mill",
-            "unit": "millimeters",
-            "vendor": "Datron"
-        },
-        {
-            "BMC": "hss",
-            "description": "",
-            "geometry": {
-                "CSP": false,
-                "DC": 0.6,
-                "HAND": true,
-                "LB": 20.5,
-                "LCF": 2,
-                "NOF": 1,
-                "OAL": 38,
-                "SFDM": 4,
-                "shoulder-length": 2
-            },
-            "guid": "bd5fee3b-05e7-4061-8ab5-d8a455da0a6a",
-            "post-process": {
-                "break-control": true,
-                "comment": "",
-                "diameter-offset": 20,
-                "length-offset": 20,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 20,
-                "turret": 0
-            },
-            "product-id": "",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "f_n": 0.006666666666667,
-                        "f_z": 0.03,
-                        "guid": "439ef38b-3e9a-416a-9962-834ca45cc912",
-                        "n": 50000,
-                        "n_ramp": 50000,
-                        "name": "Default preset",
-                        "stepdown": 0.24,
-                        "stepover": 0.36,
-                        "tool-coolant": "mist",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 94.2477796076938,
-                        "v_f": 1500,
-                        "v_f_leadIn": 1500,
-                        "v_f_leadOut": 1500,
-                        "v_f_plunge": 333.3333333333331,
-                        "v_f_ramp": 333.3333333333331
-                    }
-                ]
-            },
-            "type": "flat end mill",
             "unit": "millimeters",
             "vendor": "Datron"
         },
@@ -1147,20 +1095,41 @@
                 "presets": [
                     {
                         "f_n": 0.016666666666667,
-                        "f_z": 0.016666666666667,
+                        "f_z": 0.05,
                         "guid": "bc9d339b-eede-4dcc-afa9-784dbc69677f",
                         "n": 20000,
                         "n_ramp": 20000,
-                        "name": "Default preset",
+                        "name": "Adaptive Clearing Metal",
+                        "stepdown": 10,
+                        "stepover": 0.9,
                         "tool-coolant": "flood",
-                        "use-stepdown": false,
-                        "use-stepover": false,
+                        "use-stepdown": true,
+                        "use-stepover": true,
                         "v_c": 376.9911184307752,
-                        "v_f": 1000,
-                        "v_f_leadIn": 1000,
-                        "v_f_leadOut": 1000,
+                        "v_f": 3000,
+                        "v_f_leadIn": 3000,
+                        "v_f_leadOut": 3000,
                         "v_f_plunge": 333.33333333333326,
-                        "v_f_ramp": 1000
+                        "v_f_ramp": 2000
+                    },
+                    {
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.05,
+                        "guid": "f988a571-6519-40dc-9a8a-9b2e62faba74",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Facing Metal",
+                        "stepdown": 1,
+                        "stepover": 3,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 376.9911184307752,
+                        "v_f": 3000,
+                        "v_f_leadIn": 3000,
+                        "v_f_leadOut": 3000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 2000
                     }
                 ]
             },
@@ -1483,6 +1452,63 @@
                 ]
             },
             "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 21,
+                "LCF": 1.5,
+                "NOF": 4,
+                "NT": 1,
+                "OAL": 50,
+                "SFDM": 6,
+                "TP": 1,
+                "shoulder-length": 12,
+                "thread-profile-angle": 60
+            },
+            "guid": "4fd9183c-9407-4804-85aa-6b8b136ff493",
+            "last_modified": 1603900958189,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 20,
+                "length-offset": 20,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 20,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.011111111111111,
+                        "f_z": 0.008333333333333,
+                        "guid": "8870105f-6a29-4f65-aa63-140317311ccd",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Default preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 376.9911184307752,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "thread mill",
             "unit": "millimeters",
             "vendor": ""
         }
