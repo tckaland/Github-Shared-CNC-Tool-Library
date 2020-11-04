@@ -35,6 +35,12 @@ allowedCircularPlanes = (1 << PLANE_XY); // allow XY plane only
 
 // user-defined properties
 properties = {
+
+  checkToolLengthBeforeToolChange: true,
+  checkIfColletEmpty: true,
+  checkToolLengthAfterToolChange: false,
+  lengthTolerance: 0.03,
+
   writeMachine: true, // write machine
   writeVersion: false, // include version info
   showOperationDialog: "dropdown", // shows a start dialog on the control to select the operation to start with
@@ -781,6 +787,28 @@ function writeMainProgram() {
     }
   }
 
+  var checkToolLengthBefore = 0;
+  var checkToolLengthAfter = 0;
+  var checkCollet = 0;
+
+  if(properties.checkToolLengthBeforeToolChange){
+    checkToolLengthBefore = 1;
+  }
+
+  if(properties.checkToolLengthAfterToolChange){
+    checkToolLengthAfter = 1;
+  }
+
+  if(properties.checkIfColletEmpty){
+    checkCollet = 1;
+  }
+
+  /*writeBlock("Tcheck 0, " +
+              checkToolLengthBefore + ", " +
+              checkCollet + ", " +
+              checkToolLengthAfter + ", " +
+              properties.lengthTolerance + ", 0;");*/
+
   for (var i = 0; i < numberOfSections; ++i) {
     var section = getSection(i);
     var Description = getOperationDescription(section);
@@ -827,13 +855,37 @@ function writeMainProgram() {
 
       if(tool.number >= 15){
 
+        writeRetract(Z);
+
         writeBlock("$Message = \"Manual Tool Change: find tool nr. " + tool.number + ", " + tool.diameter + "mm.\";");
         writeBlock(translate("Message") + " $Message, 0, 0, 0;");
         writeBlock("$Message = \"CHANGE TOOL\";");
 
+        writeBlock("Tcheck 0, " +  "0, " +
+                    checkCollet+ ", " +
+                    "1, " +
+                    10 + ", 0;");
+
+        writeBlock(translate("Tool") + " T" + (tool.number) + ", 0, 0, 0, 0;");
+
+        /*writeBlock("Tcheck 0, " + "0, " +
+                    checkCollet + ", " +
+                    "1, " +
+                    properties.lengthTolerance + ", 0;");*/
+
       }
 
-      writeBlock(translate("Tool") + " T" + (tool.number) + ", 0, 0, 1, 0;");
+      else {
+
+        writeBlock("Tcheck 0, " + checkToolLengthBefore + ", " +
+                    checkCollet + ", " +
+                    checkToolLengthAfter + ", " +
+                    properties.lengthTolerance + ", 0;");
+
+        writeBlock(translate("Tool") + " T" + (tool.number) + ", 0, 0, 1, 0;");
+
+      }
+
       var _spindleSpeed = section.getInitialSpindleSpeed();
       writeBlock(translate("Rpm") + " 3, " + rpmFormat.format(Math.max(_spindleSpeed, properties.minimumSpindleRPM)) + ", 0, 30;");
     }
