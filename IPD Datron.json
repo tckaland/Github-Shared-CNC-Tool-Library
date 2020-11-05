@@ -1095,7 +1095,7 @@
                 "presets": [
                     {
                         "f_n": 0.016666666666667,
-                        "f_z": 0.05,
+                        "f_z": 0.041666666666667,
                         "guid": "bc9d339b-eede-4dcc-afa9-784dbc69677f",
                         "n": 20000,
                         "n_ramp": 20000,
@@ -1106,9 +1106,9 @@
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 376.9911184307752,
-                        "v_f": 3000,
-                        "v_f_leadIn": 3000,
-                        "v_f_leadOut": 3000,
+                        "v_f": 2499.9999999999995,
+                        "v_f_leadIn": 2499.9999999999995,
+                        "v_f_leadOut": 2499.9999999999995,
                         "v_f_plunge": 333.33333333333326,
                         "v_f_ramp": 2000
                     },
@@ -1130,6 +1130,24 @@
                         "v_f_leadOut": 3000,
                         "v_f_plunge": 333.33333333333326,
                         "v_f_ramp": 2000
+                    },
+                    {
+                        "f_n": 0.016666666666667,
+                        "f_z": 0.05,
+                        "guid": "710441ba-ff3c-49c2-9a26-b8a6823f2a75",
+                        "n": 20000,
+                        "n_ramp": 20000,
+                        "name": "Slotting Metal",
+                        "stepdown": 2,
+                        "tool-coolant": "mist",
+                        "use-stepdown": true,
+                        "use-stepover": false,
+                        "v_c": 376.9911184307752,
+                        "v_f": 3000,
+                        "v_f_leadIn": 3000,
+                        "v_f_leadOut": 3000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 1500
                     }
                 ]
             },
