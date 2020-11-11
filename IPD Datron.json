@@ -56,97 +56,6 @@
         },
         {
             "BMC": "hss",
-            "description": "6mm single flute",
-            "geometry": {
-                "CSP": false,
-                "DC": 6,
-                "HAND": true,
-                "LB": 32,
-                "LCF": 20,
-                "NOF": 1,
-                "OAL": 57,
-                "SFDM": 6,
-                "shoulder-length": 20
-            },
-            "guid": "2c1b2117-54cd-429a-b48f-741c766f4828",
-            "post-process": {
-                "break-control": true,
-                "comment": "",
-                "diameter-offset": 9,
-                "length-offset": 9,
-                "live": true,
-                "manual-tool-change": false,
-                "number": 9,
-                "turret": 0
-            },
-            "product-id": "",
-            "product-link": "",
-            "start-values": {
-                "presets": [
-                    {
-                        "f_n": 0.011111111111111,
-                        "f_z": 0.05,
-                        "guid": "6290d8a2-4cae-4626-9890-a8c28ff84615",
-                        "n": 30000,
-                        "n_ramp": 30000,
-                        "name": "Finishing Metal",
-                        "stepdown": 0.5,
-                        "stepover": 3,
-                        "tool-coolant": "mist",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 565.4866776461629,
-                        "v_f": 1500,
-                        "v_f_leadIn": 1500,
-                        "v_f_leadOut": 1500,
-                        "v_f_plunge": 333.3333333333331,
-                        "v_f_ramp": 1000
-                    },
-                    {
-                        "f_n": 0.011111111111111,
-                        "f_z": 0.1,
-                        "guid": "b19cb650-748a-481e-b845-4d4fd962e9bb",
-                        "n": 30000,
-                        "n_ramp": 30000,
-                        "name": "Slotting Metal",
-                        "stepdown": 1.5,
-                        "tool-coolant": "mist",
-                        "use-stepdown": true,
-                        "use-stepover": false,
-                        "v_c": 565.4866776461629,
-                        "v_f": 3000,
-                        "v_f_leadIn": 3000,
-                        "v_f_leadOut": 3000,
-                        "v_f_plunge": 333.3333333333331,
-                        "v_f_ramp": 1500
-                    },
-                    {
-                        "f_n": 0.011111111111111,
-                        "f_z": 0.2,
-                        "guid": "78dd4e82-0b1a-4bf4-9e7f-d5089e9e4cd4",
-                        "n": 30000,
-                        "n_ramp": 30000,
-                        "name": "Adaptive Clearing Metal",
-                        "stepdown": 6,
-                        "stepover": 0.6,
-                        "tool-coolant": "mist",
-                        "use-stepdown": true,
-                        "use-stepover": true,
-                        "v_c": 565.4866776461629,
-                        "v_f": 6000,
-                        "v_f_leadIn": 6000,
-                        "v_f_leadOut": 6000,
-                        "v_f_plunge": 333.3333333333331,
-                        "v_f_ramp": 1500
-                    }
-                ]
-            },
-            "type": "flat end mill",
-            "unit": "millimeters",
-            "vendor": "Datron"
-        },
-        {
-            "BMC": "hss",
             "description": "",
             "geometry": {
                 "CSP": false,
@@ -456,12 +365,12 @@
                 "CSP": false,
                 "DC": 6,
                 "HAND": true,
-                "LB": 31.500000000000018,
-                "LCF": 22,
+                "LB": 30,
+                "LCF": 20,
                 "NOF": 1,
                 "OAL": 57,
                 "SFDM": 6,
-                "shoulder-length": 31
+                "shoulder-length": 22
             },
             "guid": "905e236f-72a3-47f4-b614-a40f9a622d55",
             "post-process": {
