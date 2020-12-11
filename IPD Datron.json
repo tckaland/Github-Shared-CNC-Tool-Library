@@ -431,7 +431,7 @@
                         "n": 30000,
                         "n_ramp": 30000,
                         "name": "Adaptive Clearing Metal",
-                        "stepdown": 6,
+                        "stepdown": 3,
                         "stepover": 0.6,
                         "tool-coolant": "mist",
                         "use-stepdown": true,
