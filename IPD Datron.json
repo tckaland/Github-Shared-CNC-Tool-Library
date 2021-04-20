@@ -442,6 +442,25 @@
                         "v_f_leadOut": 6000,
                         "v_f_plunge": 333.3333333333331,
                         "v_f_ramp": 2000
+                    },
+                    {
+                        "f_n": 0.005,
+                        "f_z": 0.066666666666667,
+                        "guid": "ad5cf05d-05b5-4db7-b374-4240590c5c51",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "MDF test",
+                        "stepdown": 15,
+                        "stepover": 4,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 565.4866776461629,
+                        "v_f": 2000,
+                        "v_f_leadIn": 2000,
+                        "v_f_leadOut": 2000,
+                        "v_f_plunge": 150,
+                        "v_f_ramp": 2000
                     }
                 ]
             },
