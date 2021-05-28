@@ -192,6 +192,25 @@
                         "v_f_leadOut": 1500,
                         "v_f_plunge": 333.3333333333331,
                         "v_f_ramp": 333.3333333333331
+                    },
+                    {
+                        "f_n": 0.085714285714286,
+                        "f_z": 0.114285714285714,
+                        "guid": "f16bb826-5db2-4742-a941-24c8d2cc63fb",
+                        "n": 35000,
+                        "n_ramp": 35000,
+                        "name": "Foam Finishing",
+                        "stepdown": 0.5,
+                        "stepover": 0.5,
+                        "tool-coolant": "mist",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 219.9114857512856,
+                        "v_f": 8000,
+                        "v_f_leadIn": 8000,
+                        "v_f_leadOut": 8000,
+                        "v_f_plunge": 3000,
+                        "v_f_ramp": 7000
                     }
                 ]
             },
@@ -353,22 +372,22 @@
                         "v_f_ramp": 333.3333333333331
                     },
                     {
-                        "f_n": 0.05,
-                        "f_z": 0.05,
+                        "f_n": 0.166666666666667,
+                        "f_z": 0.2,
                         "guid": "2ee6e5db-b0d6-4dc2-86d9-709228aa5e2a",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Foam",
-                        "stepdown": 15,
-                        "stepover": 3,
+                        "name": "Foam Finishing",
+                        "stepdown": 0.5,
+                        "stepover": 0.5,
                         "tool-coolant": "disabled",
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 565.4866776461629,
-                        "v_f": 3000,
-                        "v_f_leadIn": 3000,
-                        "v_f_leadOut": 3000,
-                        "v_f_plunge": 1500,
+                        "v_f": 12000,
+                        "v_f_leadIn": 12000,
+                        "v_f_leadOut": 12000,
+                        "v_f_plunge": 4999.999999999999,
                         "v_f_ramp": 2500
                     }
                 ]
@@ -463,23 +482,23 @@
                         "v_f_ramp": 2000
                     },
                     {
-                        "f_n": 0.05,
-                        "f_z": 0.1,
+                        "f_n": 0.1,
+                        "f_z": 0.266666666666667,
                         "guid": "6d1c8fec-a3c2-4556-87ac-c28418086231",
                         "n": 30000,
                         "n_ramp": 30000,
-                        "name": "Foam",
+                        "name": "Foam Adaptive/Pocket Clearing",
                         "stepdown": 20,
-                        "stepover": 3,
+                        "stepover": 5,
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": true,
                         "v_c": 565.4866776461629,
-                        "v_f": 3000,
-                        "v_f_leadIn": 3000,
-                        "v_f_leadOut": 3000,
-                        "v_f_plunge": 1500,
-                        "v_f_ramp": 2000
+                        "v_f": 8000,
+                        "v_f_leadIn": 8000,
+                        "v_f_leadOut": 8000,
+                        "v_f_plunge": 3000,
+                        "v_f_ramp": 4000
                     }
                 ]
             },
@@ -1474,6 +1493,60 @@
                 ]
             },
             "type": "thread mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "Superlang ball-nose. Skal KUN brukes til finish-pass av lette ting som skum",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 65,
+                "LCF": 20,
+                "NOF": 2,
+                "OAL": 71,
+                "SFDM": 8,
+                "shoulder-length": 60
+            },
+            "guid": "9aae09f2-d431-4259-a2f2-9ca2b9543264",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 29,
+                "length-offset": 29,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 29,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.033333333333333,
+                        "f_z": 0.05,
+                        "guid": "39e1c8ec-1e1f-4ab8-a117-e37f83475a48",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Finish pass grey foam",
+                        "stepdown": 0.5,
+                        "stepover": 0.5,
+                        "tool-coolant": "flood",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 282.7433388230814,
+                        "v_f": 3000,
+                        "v_f_leadIn": 3000,
+                        "v_f_leadOut": 3000,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 1000
+                    }
+                ]
+            },
+            "type": "ball end mill",
             "unit": "millimeters",
             "vendor": ""
         }
