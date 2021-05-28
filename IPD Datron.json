@@ -389,6 +389,25 @@
                         "v_f_leadOut": 12000,
                         "v_f_plunge": 4999.999999999999,
                         "v_f_ramp": 2500
+                    },
+                    {
+                        "f_n": 0.066666666666667,
+                        "f_z": 0.033333333333333,
+                        "guid": "9de729cd-dc7c-48c0-9bae-69b8e57aadce",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Wood Finishing",
+                        "stepdown": 0.5,
+                        "stepover": 1,
+                        "tool-coolant": "disabled",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 565.4866776461629,
+                        "v_f": 2000,
+                        "v_f_leadIn": 2000,
+                        "v_f_leadOut": 2000,
+                        "v_f_plunge": 2000,
+                        "v_f_ramp": 2000
                     }
                 ]
             },
@@ -499,6 +518,44 @@
                         "v_f_leadOut": 8000,
                         "v_f_plunge": 3000,
                         "v_f_ramp": 4000
+                    },
+                    {
+                        "f_n": 0.033333333333333,
+                        "f_z": 0.066666666666667,
+                        "guid": "753a574c-7793-43ea-b3b5-d8cb61a6d3b3",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Wood Pocket Clearing",
+                        "stepdown": 4,
+                        "stepover": 3,
+                        "tool-coolant": "mist",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 565.4866776461629,
+                        "v_f": 2000,
+                        "v_f_leadIn": 2000,
+                        "v_f_leadOut": 2000,
+                        "v_f_plunge": 1000,
+                        "v_f_ramp": 2000
+                    },
+                    {
+                        "f_n": 0.066666666666667,
+                        "f_z": 0.1,
+                        "guid": "9c5cca49-129a-436a-9fdc-e776fa57956d",
+                        "n": 30000,
+                        "n_ramp": 30000,
+                        "name": "Wood Scallop",
+                        "stepdown": 1,
+                        "stepover": 1,
+                        "tool-coolant": "mist",
+                        "use-stepdown": true,
+                        "use-stepover": true,
+                        "v_c": 565.4866776461629,
+                        "v_f": 3000,
+                        "v_f_leadIn": 3000,
+                        "v_f_leadOut": 3000,
+                        "v_f_plunge": 2000,
+                        "v_f_ramp": 2000
                     }
                 ]
             },
