@@ -43,8 +43,8 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 ![Add Repo GitHub Desktop](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/GitHubDesktopAddRepo.png?raw=true)
 
 
-3. For å sjekke at biblioteket er importert, åpne Fusion360 og gå til CAM/Manufacture-arbeidsområdet.<br>
-![Change to Manufacture Workspace](changeToManufacture.gif)
+3. For å sjekke at biblioteket er importert, åpne Fusion360 og gå til CAM/Manufacture-arbeidsområdet.<br><br>
+<img src="ChangeToManufacture.gif" width="250">
  <br>Deretter trykk på dette 
 ![Tool Library Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibrarySymbol.png?raw=true)
  symbolet. Du burde nå ha fått opp et lignende vindu som vist under. :point_down:
