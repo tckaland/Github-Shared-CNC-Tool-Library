@@ -40,12 +40,12 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 
 2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.
 ######          :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
-<img scr="Images/GitHubDesktopAddRepo.png" width = "500">
+![Add repo in GitHub Desktop](Images/GitHubDesktopAddRepo.png)
 ![Add Repo GitHub Desktop](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/GitHubDesktopAddRepo.png?raw=true)
 
 
 3. For å sjekke at biblioteket er importert, åpne Fusion360 og gå til CAM/Manufacture-arbeidsområdet.<br><br>
-<img src="ChangeToManufacture.gif" width="250">
+<img src="Images/ChangeToManufacture.gif" width="250">
  <br>Deretter trykk på dette 
 ![Tool Library Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibrarySymbol.png?raw=true)
  symbolet. Du burde nå ha fått opp et lignende vindu som vist under. :point_down:
