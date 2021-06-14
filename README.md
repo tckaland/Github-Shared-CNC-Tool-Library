@@ -138,7 +138,7 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 <br><h6>:information_source: Hovre over de forksjellige strategiene i Fusion360 for å få en liten forklaring på hva de gjør.</h6>
 
 3. Når du har valgt en type strategi å bruke så får du opp et vindu med masse variabler :point_down:
-<br><img src="Images/ToolPathWindow.png" width="200">
+<br><img src="Images/ToolpathWindow.png" width="200">
 <br>Det første du må gjøre i dette vinduet er å velge et verktøy fra verktøysbiblioteket. Dette gjøres ved å trykke på *Select* under *tool* og velge det verktøyet du vil bruke i verktøysbibliotekvinduet som popper opp. Deretter kan du velge en *preset* under *feed & speed* eller skrive inn egne variabler. Det beste er å ta utgangspunkt i en *preset*, for så å forandre på de variablene som det trengs å forandre på. Her må du bare prøve deg frem!
 
 4. Gå igjennom de forksjellige fanene og se og prøv deg frem med alle variablene som finnes der. To variabler å legge seg merke til er *stepdown* og *stepover*. *Stepdown* er hvor mye fresen skal dykke ned i materialet når den kutter, mens *stepover* er hvor mye fresen skal kutte på siden for hver gang den går over et område.  
