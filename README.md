@@ -84,7 +84,7 @@ Postprosessoren er en liten kodesnutt som oversetter kutteopreasjonene dine i Fu
 2. Når repoet er lastet ned, åpne Fusion360, gå til *manufacture-arbeidsområdet* og trykk på *post library* ![Post Library Button](.Images/PostLibraryButton.png) som ligger i *manage* fanen.
 
 3. Trykk på Import-knappen ![Import button](.Images/Import.png) i fanen som kommer opp, og velg filen IPDDatronM8.cps som ligger i repoen/folderen som du lastet ned fra GitHub.
-<img src=".Images/AddPostProcessor.png" width="49%"> <img src=".Images/AddPostProcessorSelected.png" width="49%">
+<br><img src=".Images/AddPostProcessor.png" width="49%"> <img src=".Images/AddPostProcessorSelected.png" width="49%">
 <br><h6>:information_source: Dersom du har følgt fremgangsmåten som vist [her](#Hvordan-importere-verktøysbibliotek-til-Fusion360), så skal folderen ligge i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**</h6>
 
 4. Ferdig! Postprosessoren for CNCen skal nå være tilgjengelig både i *Post Library* vinduet :point_down: og som en valgbar postprosessor når du trykker på *Post Process* ![Post Process button](.Images/PostProcess.png) når du skal eksportere et CNCprogram.
