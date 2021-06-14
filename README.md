@@ -103,7 +103,9 @@ Okay, du har lastet ned og importert verktøysbiblioteket og postprosessoren til
 
 #### Lage *setups*
 
-En *setup* forteller maskinen hvordan modellen din er plassert i CNCmaskinen. Dette innebærer bla. hva som er nullpunktet, hvor stor klump med materiale som du begynner med (aka *stock*) og hva som er X-, Y- og Z-aksen. Du kan lage flere setups for én modell, f.eks to setups med Z-akse vridd 180° for en tosidig maskinering.
+<img src="Images/MakeSetup.gif">
+
+<br>En *setup* forteller maskinen hvordan modellen din er plassert i CNCmaskinen. Dette innebærer bla. hva som er nullpunktet, hvor stor klump med materiale som du begynner med (aka *stock*) og hva som er X-, Y- og Z-aksen. Du kan lage flere setups for én modell, f.eks to setups med Z-akse vridd 180° for en tosidig maskinering.
 
 Slik går du frem for å lage en *setup*:
 1. I *manufacturearbeidsområdet, trykk på setupknappen ![Setup Button](Images/SetupButton.png) som ligger under setupfanen i menyen. Du burde nå få opp noe som ligner på dette :point_down:
@@ -117,12 +119,12 @@ Slik går du frem for å lage en *setup*:
     - For å velge hva som skal være nullpunkt i modellen din, trykk på *origin* og velg hva slags type nullpunkt du vil ha. Her kan du velge mellom *model origin*, *selected point*, *model box point* og *stock box point*. Som oftest så er det enklest og best å bruke *stock box point*. Deretter velger du hvor på *stocken* nullpunktet ditt skal være. Her er det som oftest enklest og best å velge det nederste venstre hjørnet som ligger på toppen av *stocken* din.
     -  Trykk på *stock-fanen*![Stock Tab](Images/StockTab.png) for å definere hvor stor *stock* du skal ha. Her er det igjen ganske mange forskjellige alternativer, men det funker ofte greit å bare velge *relative size box* og sette på et par millimeter *offset* på toppen og sidene av *stocken*.
 4. Trykk på ok.
-<br><img src="Images/MakeSetup.gif">
+
 <br>
 
 #### Legge til operasjoner
 
-![Cutting Operation](Images/CuttingOperationAdded.png)
+<img src="Images/AddCuttingOperation.gif">
 
 <br>Nå som en setup er laget så kan du begynne å lage og generere kutteoperasjoner! En kutteoperasjon er en generert "sti" som CNCmaskinen følger med en fres for å kutte vekk materiale som ikke er modellen din, slik at du ender opp med at kun modellen din står igjen. Den finnes mange forskjellige strategier for hvordan en kutteoperasjon skal oppføre seg, og det er normalt at man må lage flere kutteoperasjoner med forskjellige fresestørrelser og strategier for å lage et program som funker bra. 
 
