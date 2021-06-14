@@ -44,7 +44,7 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 
 
 3. For å sjekke at biblioteket er importert, åpne Fusion360 og gå til CAM/Manufacture-arbeidsområdet.<br>
-![Change to Manufacture Workspace](https://github/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ChangeToManufacture.gif?raw=true)
+![Change to Manufacture Workspace](changeToManufacture.gif)
  <br>Deretter trykk på dette 
 ![Tool Library Button](https://github.com/tckaland/Github-Shared-CNC-Tool-Library/blob/master/ToolLibrarySymbol.png?raw=true)
  symbolet. Du burde nå ha fått opp et lignende vindu som vist under. :point_down:
