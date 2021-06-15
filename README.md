@@ -47,9 +47,9 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 3. For å sjekke at biblioteket er importert, åpne Fusion360 og gå til CAM/Manufacture-arbeidsområdet.<br><br>
 <img src=".Images/ChangeToManufacture.gif" width="250">
  <br>Deretter trykk på dette 
-![Tool Library Button](.Images/ToolLibrarySymbol.png)
+<img src=".Images/ToolLibrarySymbol.png">
  symbolet. Du burde nå ha fått opp et lignende vindu som vist under. :point_down:
- ![Tool Library Location](.Images/ToolLibraryInFusion.png)
+ <img src=".Images/ToolLibraryInFusion.png">
  Verktøybiblioteket til CNCen på verkstedet vil ligge under **Local -> Github-Shared-CNC-Tool-Library -> IPD Datron**
 
 4. Oppdater repoet med jevne mellomrom gjennom git for å holde verktøybiblioteket og *feeds & speeds* oppdatert. 
