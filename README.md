@@ -11,12 +11,20 @@ I readme-filen (filen du leser nå :astonished:) finner du også info om temaene
 - [Hvordan importere verktøysbibliotek til Fusion360](#Hvordan-importere-verktøysbibliotek-til-fusion360)
 - [Hvordan importere postprosessor til Fusion360](#Hvordan-importere-postprosessor-til-Fusion360)
 - [Programmering av CNC-maskinen i Fusion360](#Programmering-av-CNC-maskinen-i-Fusion360)
-- [Interne og eksterne verktøy](#Eksterne-og-interne-verktøy)
 - [Oppstart av CNC-maskinen](#Oppstart-av-CNC-maskinen)
 - [Manuell styring](#Manuell-styring)
+- [Feste *stock* i CNCen](#Feste-stock-i-CNCen)
 - [Sette nullpunkt](#Sette-nullpunkt)
-- [Lagre og laste inn nullpunkt](#Lagre-og-laste-inn-nullpunkt)
+- [Laste inn og starte kutteprogram](#Laste-inn-og-starte-kutteprogram)
+- [Justere hastighet og kjøling under programkjøring](#Justere-hastighet-og-kjøling-under-programkjøring)
 - [Skru av maskinen](#Skru-av-maskinen)
+- [Utføre enkle kutt direkte på CNCen](#Utføre-enkle-kutt-direkte-på-CNCen)
+- [Andre festemetoder](#Andre-festemetoder)
+- [Lagre og laste inn nullpunkt](#Lagre-og-laste-inn-nullpunkt)
+- [Vri koordinatsystem til CNCen](#Vri-koordinatsystem-til-CNCen)
+- [Starte et program fra en spesifikk plass](#Starte-et-program-fra-en-spesifikk-plass)
+- [Bytte ut et internt fresestål med et lenger fresestål](#Bytte-ut-et-internt-fresestål-med-et-lenger-fresestål)
+
 
 
 <br>
@@ -221,6 +229,16 @@ Her kommer det info snart. Jeg lover!
 
 <br>
 
+## Feste *stock* i CNCen
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
 ## Sette nullpunkt
 
 Her kommer det info snart. Jeg lover!
@@ -230,6 +248,65 @@ Her kommer det info snart. Jeg lover!
 ---
 
 <br>
+
+
+## Laste inn og starte kutteprogram
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+## Justere hastighet og kjøling under programkjøring
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+## Skru av maskinen
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+
+## Utføre enkle kutt direkte på CNCen
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+## Andre festemetoder
+
+Her kommer det info snart. Jeg lover!
+
+### Pneumatiske tvinger
+
+### Flyttbare festebord i aluminium
+
+### Direkte feste til CNCbordet
+
+<br>
+
+---
+
+<br>
+
 
 ## Lagre og laste inn nullpunkt
 
@@ -241,4 +318,34 @@ Her kommer det info snart. Jeg lover!
 
 <br>
 
-## Skru av maskinen
+
+## Vri koordinatsystem til CNCen
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+
+## Starte et program fra en spesifikk plass
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+## Bytte ut et internt fresestål med et lenger fresestål
+
+Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
