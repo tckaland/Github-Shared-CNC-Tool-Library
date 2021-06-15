@@ -97,7 +97,7 @@ Postprosessoren er en liten kodesnutt som oversetter kutteopreasjonene dine i Fu
 
 ## Programmering av CNC-maskinen i Fusion360
 
-Okay, du har lastet ned og importert verktøysbiblioteket og postprosessoren til Fusion360, men hva nå? Hvordan går man fra en Fusion360fil til en fysisk modell? For å gå fra digital til fysisk modell så må du programmere inn hvordan modellen din ligger, definere et nullpunkt, generere baner som sier hvordan CNCen skal kutte vekk materiale og eksportere oppsettet og banene til noe CNCen forstår (aka G-kode). Den generelle arbeidsflyten er:
+Okay, du har lastet ned og importert verktøysbiblioteket og postprosessoren til Fusion360, men hva nå? Hvordan går man fra en Fusion360fil til en fysisk modell? For å gå fra digital til fysisk modell så må du programmere inn hvordan modellen din ligger i CNCen, definere et nullpunkt, generere baner som sier hvordan CNCen skal kutte vekk materiale og eksportere oppsettet og banene til noe CNCen forstår (aka G-kode). Den generelle arbeidsflyten er:
 
 1. [Lage *setup*](#Lage-setups)
 2. [Legge til og generere kutteoperasjoner](#Legge-til-operasjoner)
@@ -122,6 +122,8 @@ Slik går du frem for å lage en *setup*:
     - For å overstyre orienteringen på modellen som automatisk blir satt, trykk på *orientation* under *Work Coordinate System (WCS)* og velg *select z axis/plane & x axis*. Velg deretter hva som skal være referansene for Z-aksen og X-aksen. Dersom aksene peker feil vei, huk av *flip axis* på den aksen som det gjelder.
     - For å velge hva som skal være nullpunkt i modellen din, trykk på *origin* og velg hva slags type nullpunkt du vil ha. Her kan du velge mellom *model origin*, *selected point*, *model box point* og *stock box point*. Som oftest så er det enklest og best å bruke *stock box point*. Deretter velger du hvor på *stocken* nullpunktet ditt skal være. Her er det som oftest enklest og best å velge det nederste venstre hjørnet som ligger på toppen av *stocken* din.
     -  Trykk på *stock-fanen*![Stock Tab](.Images/StockTab.png) for å definere hvor stor *stock* du skal ha. Her er det igjen ganske mange forskjellige alternativer, men det funker ofte greit å bare velge *relative size box* og sette på et par millimeter *offset* på toppen og sidene av *stocken*.
+    <br>En setup vil som oftest se sånn ut :point_down:
+    <br><br>![Setup Finished](.Images/SetupCorrect.png)<br>
 4. Trykk på ok.
 
 <br>
@@ -144,12 +146,17 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 3. Når du har valgt en type strategi å bruke så får du opp et vindu med masse variabler :point_down:
 <br><br><img src=".Images/ToolpathWindow.png" width="200">
 <br><br>Det første du må gjøre i dette vinduet er å velge et verktøy fra verktøysbiblioteket. Dette gjøres ved å trykke på *Select* under *tool* og velge det verktøyet du vil bruke i verktøysbibliotekvinduet som popper opp. Deretter kan du velge en *preset* under *feed & speed* eller skrive inn egne variabler. Det beste er å ta utgangspunkt i en *preset*, for så å forandre på de variablene som det trengs å forandre på. Her må du bare prøve deg frem!
+<br><br><h6>:bulb: Verktøyene med nr **1-13** er **interne** verktøy og CNCmaskinen bytter automatisk mellom disse verktøyene når den kjører de forskjellige kutteoperasjonene. Verktøyene med nr **20 og oppover** er **eksterne** verktøy og må byttes manuelt underveis. Når det er tid for verktøysbytte vil CNCmaskinen legge fra seg det nåværende verktøyet, for så å instruere deg om å sette inn det nye eksterne verktøyet. </h6>
 
 4. Gå igjennom de forksjellige fanene og se og prøv deg frem med alle variablene som finnes der. To variabler å legge seg merke til er *stepdown* og *stepover*. *Stepdown* er hvor mye fresen skal dykke ned i materialet når den kutter, mens *stepover* er hvor mye fresen skal kutte på siden for hver gang den går over et område.  
 
 5. Trykk på OK og vent til kutteoperasjoonen er generert ferdig. Dette kan ta litt tid hvis det er en stor eller avansert operasjon.<br>
    ###### :bulb: For å generere en kutteoperasjon på  nytt, trykk på **cmd** + **G**.
+
+6. Legg til flere kutteoperasjoner ved å repetere steg 1 - 5. CNCmaskinen kommer til å utføre kutteoperasjonene sekvensiellt fra top til bunn og du kan forandre rekkefølgen på kutteoperasjonene ved å klikke og dra operasjonene opp og ned under setup-treet.
+
 <br>
+
 ##### :fire: Noen tips :fire:
 
 * Lag egne *sketcher* i designarbeidsområdet og bruk de som *machining boundary* dersom du vil at en kutteoperasjon kun skal kutte i et spesifikt område.
@@ -166,11 +173,27 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 
 #### Simulere kutting
 
+<img src=".Images/Simulate.gif">
 
+<br>Det er lurt å simulere alle kutteoperasjonene før en eksporterer koden for å sjekke at operasjonene kutter som de skal og ikke krasjer i noe. Simuleringen i Fusion360 tar hensyn til diameteren, kuttedybde og lengde på fresestålet for alle operasjonene for å sjekke om maskinen kommer til å krasje eller ikke. I simuleringen kan en også vise hvor nærme den ferdige delen kommer til å være CAD-modellen din.
+
+For å kjøre en simulering, velg de *setupene* du vil simulere (eventuelt spesifikke kutteoperasjoner) og trykk på simuleringsknappen ![Simulate Button](.Images/SimulateButton.png). Du kan nå spille av en animasjon av hvordan CNCen kommer til å kutte. Dersom det blir noen krasj i CNCprogrammet ditt så vil dette vises som en rød strek/felt i den grønne tidslinjebaren helt nederst på skjermen.
+
+:bulb: Du kan velge flere *setups* samtidig og simulere de sammen. Det er nyttig dersom du har en flersidig CNC-fresing og vil simulere hvordan alle *setupene* kommer til å interagere med hverandre. 
+
+:bulb: Dersom du kutter i gråskum så gjør det ikke så mye om du får en kollisjon med *stock*
+
+:bulb: Dersom du krasjer (i simuleringen) pga. et for kort fresestål, så kan du bytte ut fresestålet med et lengre et. Dette gjøres manuelt nede på verkstedet. Dersom du gjør dette så må du huske på å holde diameteren på verktøyet det samme! Altså verktøy nr 9 (6mm) skal **kun** byttes ut med et annet 6mm fresestål.
 
 <br>
 
 #### Eksportere til G-kode
+
+<img src=".Images/Export.gif">
+
+<br>For å eksportere kutteprogrammet ditt, velg den *setupen* du vil eksportere og trykk på eksporteringsknappen ![Export button](.Images/ExportButton.png). Her må du velge *personal posts* som *source* og deretter velge "IPD DATRON M8" som *post processor*. Deretter kan du gi kuttefilen din et navn under *program number* og trykke på ok for å eksportere programmet til G-kode.
+
+:bulb: Hvis du skifter navn på filen når du velger lagringsplass, husk å end navnet med .mcr. Hvis .mcr-endingen ikke er med så vil ikke CNCen kunne åpne filen.
 
 <br>
 
