@@ -37,21 +37,22 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 <br>
 
 1. Trykk på **Code** i GitHub på web og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pcen din vha. https, ssh eller cli)
-<img src=.Images/GitHubClone.gif><br><h6>:bulb: GitHub Desktop kan lastes ned **[her](https://desktop.github.com/)**</h6>
+   <br><img src=.Images/GitHubClone.gif>
+   <br><h6>:bulb: GitHub Desktop kan lastes ned **[her](https://desktop.github.com/)**</h6>
 
-2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.
-######          :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
-![Add repo in GitHub Desktop](.Images/GitHubDesktopAddRepo.png)
+2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.<br>
+   ###### :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
+   ![Add repo in GitHub Desktop](.Images/GitHubDesktopAddRepo.png)
 
 
 3. For å sjekke at biblioteket er importert, åpne Fusion360 og gå til CAM/Manufacture-arbeidsområdet.<br>
- <br><img src=".Images/ChangeToManufacture.gif" width="250">
- <br>Deretter trykk på dette ![Tool Library Symbol](.Images/ToolLibrarySymbol.png) symbolet. Du burde nå ha fått opp et lignende vindu som vist under. :point_down:
- <br><img src=".Images/ToolLibraryInFusion.png">
- Verktøybiblioteket til CNCen på verkstedet vil ligge under **Local -> Github-Shared-CNC-Tool-Library -> IPD Datron**
+   <br><img src=".Images/ChangeToManufacture.gif" width="250">
+   <br>Deretter trykk på dette ![Tool Library Symbol](.Images/ToolLibrarySymbol.png) symbolet. Du burde nå ha fått opp et lignende vindu som vist under. :point_down:
+   <br><img src=".Images/ToolLibraryInFusion.png">
+   Verktøybiblioteket til CNCen på verkstedet vil ligge under **Local -> Github-Shared-CNC-Tool-Library -> IPD Datron**
 
 4. Oppdater repoet med jevne mellomrom gjennom git for å holde verktøybiblioteket og *feeds & speeds* oppdatert. 
-    <br>Dersom du bruker GitHub Desktop, så gjøres dette enkelt ved å trykke på knappen "fetch origin".
+   <br>Dersom du bruker GitHub Desktop, så gjøres dette enkelt ved å trykke på knappen "fetch origin".
 
 
 ### Alternativ måte
@@ -96,7 +97,12 @@ Postprosessoren er en liten kodesnutt som oversetter kutteopreasjonene dine i Fu
 
 ## Programmering av CNC-maskinen i Fusion360
 
-Okay, du har lastet ned og importert verktøysbiblioteket og postprosessoren til Fusion360, men hva nå? Hvordan går man fra en Fusion360fil til en fysisk modell? For å gå fra digital til fysisk modell så må du programmere inn hvordan modellen din ligger, definere et nullpunkt, generere baner som sier hvordan CNCen skal kutte vekk materiale og eksportere oppsettet og banene til noe CNCen forstår (aka G-kode).
+Okay, du har lastet ned og importert verktøysbiblioteket og postprosessoren til Fusion360, men hva nå? Hvordan går man fra en Fusion360fil til en fysisk modell? For å gå fra digital til fysisk modell så må du programmere inn hvordan modellen din ligger, definere et nullpunkt, generere baner som sier hvordan CNCen skal kutte vekk materiale og eksportere oppsettet og banene til noe CNCen forstår (aka G-kode). Den generelle arbeidsflyten er:
+
+1. [Lage *setup*](#Lage-setups)
+2. [Legge til og generere kutteoperasjoner](#Legge-til-operasjoner)
+3. [Simulere kutting](#Simulere-kutting)
+4. [Eksportere koden til mcr-fil](#Eksportere-til-G-kode)
 
 
 #### Lage *setups*
@@ -110,9 +116,9 @@ Slik går du frem for å lage en *setup*:
 <br><img src=".Images/SetupAdded.png">
 <br>Her ser du hva som er *stock* (i gult) og hva som er nullpunkt og X-, Y-, og Z-akse i setupen (Blå, grøn og rød pil).
 
-2. Dersom du har flere modeller i filen, gå på *model* og velg den modellen som du vil at setupen skal bruke som utgangspunkt for når den genererer kutteoperasjoner.
+2. Dersom du har flere modeller i filen, gå på *model* og velg den modellen du vil bruke som utgangspunkt for generering av kutteoperasjoner.
 
-3. Velg hva som skal være nullpunkt og X-, Y-, og Z-akse i setupen. På vår CNC så peker Z-aksen oppover, X-aksen går fra venstre mot høyre og Y-aksen går fra helt fremme i maskinen og innover bak i maskinen. Du må altså velge X-, Y-, og Z-akse på modellen din slik at Z peker opp og X og Y peker til siden og bak.
+3. Velg hva som skal være nullpunkt og X-, Y-, og Z-akse i setupen. På vår CNC peker Z-aksen oppover, X-aksen går fra venstre mot høyre og Y-aksen går fra helt fremme i maskinen og innover bak i maskinen. Du må altså velge X-, Y-, og Z-akse på modellen din slik at Z peker opp og X og Y peker til siden og bak.
     - For å overstyre orienteringen på modellen som automatisk blir satt, trykk på *orientation* under *Work Coordinate System (WCS)* og velg *select z axis/plane & x axis*. Velg deretter hva som skal være referansene for Z-aksen og X-aksen. Dersom aksene peker feil vei, huk av *flip axis* på den aksen som det gjelder.
     - For å velge hva som skal være nullpunkt i modellen din, trykk på *origin* og velg hva slags type nullpunkt du vil ha. Her kan du velge mellom *model origin*, *selected point*, *model box point* og *stock box point*. Som oftest så er det enklest og best å bruke *stock box point*. Deretter velger du hvor på *stocken* nullpunktet ditt skal være. Her er det som oftest enklest og best å velge det nederste venstre hjørnet som ligger på toppen av *stocken* din.
     -  Trykk på *stock-fanen*![Stock Tab](.Images/StockTab.png) for å definere hvor stor *stock* du skal ha. Her er det igjen ganske mange forskjellige alternativer, men det funker ofte greit å bare velge *relative size box* og sette på et par millimeter *offset* på toppen og sidene av *stocken*.
@@ -141,14 +147,26 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 
 4. Gå igjennom de forksjellige fanene og se og prøv deg frem med alle variablene som finnes der. To variabler å legge seg merke til er *stepdown* og *stepover*. *Stepdown* er hvor mye fresen skal dykke ned i materialet når den kutter, mens *stepover* er hvor mye fresen skal kutte på siden for hver gang den går over et område.  
 
-5. Trykk på OK og vent til kutteoperasjoonen er generert ferdig. Dette kan ta litt tid hvis det er en stor eller avansert operasjon.
+5. Trykk på OK og vent til kutteoperasjoonen er generert ferdig. Dette kan ta litt tid hvis det er en stor eller avansert operasjon.<br>
+   ###### :bulb: For å generere en kutteoperasjon på  nytt, trykk på **cmd** + **G**.
+<br>
+##### :fire: Noen tips :fire:
 
-###### :bulb: For å generere en kutteoperasjon på  nytt, trykk på **cmd** + **G**.
+* Lag egne *sketcher* i designarbeidsområdet og bruk de som *machining boundary* dersom du vil at en kutteoperasjon kun skal kutte i et spesifikt område.
 
+* Dersom du bruker *2D contour* på en del som har mye sidestock, skru av *lead out* i *linking* fanen i variabelmenyen til operasjonen (dobbelklikk på kutteoperasjonen). Da slipper man at fresen krasjer i *stocken* når maskinen er ferdig med kutteoperasjonen.
+
+* For metall og andre harde materialer er det bedre å ta grunne/lette og raske kutt istedenfor dype og trege kutt.
+
+* *Ballnose*freser er kun til lette *finishing*kutt. Gå derfor først over med en vanlig butt fres for å ta vekk mesteparten av materialet, men skru på *stock to leave* og sett den til 0.5mm så grovkuttet ikke går helt ned til modellen.
+
+* Vår CNC kan i utgangspunktet kun kutte plast, tre, skum, aluminium, messing og kobber.
 
 <br>
 
 #### Simulere kutting
+
+
 
 <br>
 
