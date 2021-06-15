@@ -37,7 +37,7 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 <br>
 
 1. Trykk på **Code** i GitHub på web og åpne repoet i **GitHub Desktop** (Eventuelt klon repoet til pcen din vha. https, ssh eller cli)
-<img src=.Images/GitHubClone.gif><br><h6>:information_source:GitHub Desktop kan lastes ned **[her](https://desktop.github.com/)**</h6>
+<img src=.Images/GitHubClone.gif><br><h6>:bulb: GitHub Desktop kan lastes ned **[her](https://desktop.github.com/)**</h6>
 
 2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.
 ######          :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
@@ -83,7 +83,7 @@ Postprosessoren er en liten kodesnutt som oversetter kutteopreasjonene dine i Fu
 
 3. Trykk på Import-knappen ![Import button](.Images/Import.png) i fanen som kommer opp, og velg filen IPDDatronM8.cps som ligger i repoen/folderen som du lastet ned fra GitHub.
 <br><img src=".Images/AddPostProcessor.png" width="49%"> <img src=".Images/AddPostProcessorSelected.png" width="49%">
-<br><h6>:information_source: Dersom du har følgt fremgangsmåten som vist [her](#Hvordan-importere-verktøysbibliotek-til-Fusion360), så skal folderen ligge i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**</h6>
+<br><h6>:bulb: Dersom du har følgt fremgangsmåten som vist [her](#Hvordan-importere-verktøysbibliotek-til-Fusion360), så skal folderen ligge i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**</h6>
 
 4. Ferdig! Postprosessoren for CNCen skal nå være tilgjengelig både i *Post Library* vinduet :point_down: og som en valgbar postprosessor når du trykker på *Post Process* ![Post Process button](.Images/PostProcess.png) når du skal eksportere et CNCprogram.
 <br><img src=".Images/DatronM8Added.png">
@@ -133,7 +133,7 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 2. Legg til en kurtteoperasjon ved å velge en strategi fra menybaren.
 <br><img src=".Images/CuttingStrategies.png" width="300">
 <br>Her kan du velge mellom mange forskjellige strategier, men de vanligste er *2D contour*, *Adaptive Clearing*, *Pocket Clearing*, *Horizontal* og *Face*. 
-<br><h6>:information_source: Hovre over de forksjellige strategiene i Fusion360 for å få en liten forklaring på hva de gjør.</h6>
+<br><h6>:bulb: Hovre over de forksjellige strategiene i Fusion360 for å få en liten forklaring på hva de gjør.</h6>
 
 3. Når du har valgt en type strategi å bruke så får du opp et vindu med masse variabler :point_down:
 <br><br><img src=".Images/ToolpathWindow.png" width="200">
@@ -143,7 +143,7 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 
 5. Trykk på OK og vent til kutteoperasjoonen er generert ferdig. Dette kan ta litt tid hvis det er en stor eller avansert operasjon.
 
-###### :information_source: For å generere en kutteoperasjon på  nytt, trykk på **cmd** + **G**.
+###### :bulb: For å generere en kutteoperasjon på  nytt, trykk på **cmd** + **G**.
 
 
 <br>
