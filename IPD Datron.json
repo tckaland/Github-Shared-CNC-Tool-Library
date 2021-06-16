@@ -16,6 +16,49 @@
                 "shoulder-length": 5
             },
             "guid": "153cd52c-5369-4b78-b0d2-80374d1c7817",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -69,6 +112,49 @@
                 "shoulder-length": 23
             },
             "guid": "4a5c9e05-bce2-4207-827c-28bc4a885b19",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -113,7 +199,7 @@
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": false,
-                        "v_c": 439.8229715025712,
+                        "v_c": 439.8229715025713,
                         "v_f": 3000,
                         "v_f_leadIn": 3000,
                         "v_f_leadOut": 3000,
@@ -132,7 +218,7 @@
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": true,
-                        "v_c": 439.8229715025712,
+                        "v_c": 439.8229715025713,
                         "v_f": 6000,
                         "v_f_leadIn": 6000,
                         "v_f_leadOut": 6000,
@@ -160,6 +246,49 @@
                 "shoulder-length": 9
             },
             "guid": "68443292-3e5d-4f00-9c2e-9f83d2ef654f",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -233,6 +362,49 @@
                 "shoulder-length": 6
             },
             "guid": "78852f93-4bdc-46dd-81a4-5bb34e4fdfb2",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -287,6 +459,49 @@
                 "shoulder-length": 1.5
             },
             "guid": "7f35e6f5-f8bb-4992-b4a9-88bedf74daa1",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -315,8 +530,8 @@
                         "v_f": 1000,
                         "v_f_leadIn": 1000,
                         "v_f_leadOut": 1000,
-                        "v_f_plunge": 333.33333333333303,
-                        "v_f_ramp": 333.33333333333303
+                        "v_f_plunge": 333.3333333333331,
+                        "v_f_ramp": 333.3333333333331
                     }
                 ]
             },
@@ -339,6 +554,49 @@
                 "shoulder-length": 49
             },
             "guid": "872e65b8-d4ee-44db-b338-b282a10bd076",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -430,6 +688,49 @@
                 "shoulder-length": 22
             },
             "guid": "905e236f-72a3-47f4-b614-a40f9a622d55",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -580,6 +881,49 @@
                 "tip-diameter": 0.1
             },
             "guid": "9bb7b734-81a1-492c-93b0-c990a37cc7bf",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -632,6 +976,49 @@
                 "shoulder-length": 9
             },
             "guid": "addbbb21-85cc-41ab-bd4d-67cf943a3db8",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -725,6 +1112,49 @@
                 "tip-diameter": 0.1
             },
             "guid": "b112b0f0-6670-4b2c-bf5f-48389cf1539f",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -777,6 +1207,49 @@
                 "shoulder-length": 12
             },
             "guid": "c26310d6-f712-4d77-9d8d-e869be611c20",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -868,6 +1341,49 @@
                 "shoulder-length": 8
             },
             "guid": "df79f72b-d554-4407-b973-0531dee125d6",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -920,6 +1436,49 @@
                 "shoulder-length": 13
             },
             "guid": "e712368e-ebd3-4f90-ad97-e6d1c08079ed",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -1011,6 +1570,49 @@
                 "shoulder-length": 13
             },
             "guid": "f3cd8aea-4b66-408c-8635-c5e29e34bfd8",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": true,
                 "comment": "",
@@ -1055,7 +1657,7 @@
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": true,
-                        "v_c": 439.8229715025712,
+                        "v_c": 439.8229715025713,
                         "v_f": 6000,
                         "v_f_leadIn": 6000,
                         "v_f_leadOut": 6000,
@@ -1074,7 +1676,7 @@
                         "tool-coolant": "mist",
                         "use-stepdown": true,
                         "use-stepover": true,
-                        "v_c": 439.8229715025712,
+                        "v_c": 439.8229715025713,
                         "v_f": 1500,
                         "v_f_leadIn": 1500,
                         "v_f_leadOut": 1500,
@@ -1102,6 +1704,49 @@
                 "shoulder-length": 20
             },
             "guid": "4bf3d5fa-1255-44d2-92e9-80fc29bc08b4",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1193,6 +1838,49 @@
                 "shoulder-length": 14
             },
             "guid": "60c24b38-88c7-497a-8e04-79d77f3a9171",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1245,6 +1933,49 @@
                 "shoulder-length": 14
             },
             "guid": "beb27503-1bf9-416c-a4b7-2cb156fd2414",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1297,6 +2028,49 @@
                 "shoulder-length": 16
             },
             "guid": "145ad442-290b-42d8-bb2f-56ec1633f960",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1349,7 +2123,49 @@
                 "shoulder-length": 29
             },
             "guid": "272e5a7f-43a4-451b-92a5-1b0abb8ebf99",
-            "last_modified": 1603723658689,
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1362,7 +2178,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -1403,7 +2218,49 @@
                 "shoulder-length": 5
             },
             "guid": "216b016a-239b-4d4d-8404-84e1422ff93b",
-            "last_modified": 1603723840317,
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1416,7 +2273,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -1457,7 +2313,49 @@
                 "shoulder-length": 20
             },
             "guid": "7debec82-0d75-4ea1-a768-469f314af702",
-            "last_modified": 1603724092678,
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1470,7 +2368,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -1514,7 +2411,49 @@
                 "thread-profile-angle": 60
             },
             "guid": "4fd9183c-9407-4804-85aa-6b8b136ff493",
-            "last_modified": 1603900958189,
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1527,7 +2466,6 @@
             },
             "product-id": "",
             "product-link": "",
-            "reference_guid": "<NEW TOOL GUID>",
             "start-values": {
                 "presets": [
                     {
@@ -1568,6 +2506,49 @@
                 "shoulder-length": 60
             },
             "guid": "9aae09f2-d431-4259-a2f2-9ca2b9543264",
+            "holder": {
+                "description": "Spindle geometry for IPD Datron M8",
+                "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+                "last_modified": 1623828753728,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "<NEW TOOL GUID>",
+                "segments": [
+                    {
+                        "height": 6,
+                        "lower-diameter": 10.5,
+                        "upper-diameter": 10.5
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    },
+                    {
+                        "height": 6,
+                        "lower-diameter": 14,
+                        "upper-diameter": 14
+                    },
+                    {
+                        "height": 0.1,
+                        "lower-diameter": 10,
+                        "upper-diameter": 10
+                    },
+                    {
+                        "height": 11,
+                        "lower-diameter": 20,
+                        "upper-diameter": 20
+                    },
+                    {
+                        "height": 40,
+                        "lower-diameter": 65,
+                        "upper-diameter": 65
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
             "post-process": {
                 "break-control": false,
                 "comment": "",
@@ -1604,6 +2585,49 @@
                 ]
             },
             "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "description": "Spindle geometry for IPD Datron M8",
+            "guid": "ec9da73f-dc0a-43e9-8dca-3b59c3a0698a",
+            "last_modified": 1623828753728,
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "<NEW TOOL GUID>",
+            "segments": [
+                {
+                    "height": 6,
+                    "lower-diameter": 10.5,
+                    "upper-diameter": 10.5
+                },
+                {
+                    "height": 0.1,
+                    "lower-diameter": 6,
+                    "upper-diameter": 6
+                },
+                {
+                    "height": 6,
+                    "lower-diameter": 14,
+                    "upper-diameter": 14
+                },
+                {
+                    "height": 0.1,
+                    "lower-diameter": 10,
+                    "upper-diameter": 10
+                },
+                {
+                    "height": 11,
+                    "lower-diameter": 20,
+                    "upper-diameter": 20
+                },
+                {
+                    "height": 40,
+                    "lower-diameter": 65,
+                    "upper-diameter": 65
+                }
+            ],
+            "type": "holder",
             "unit": "millimeters",
             "vendor": ""
         }
