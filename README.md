@@ -353,7 +353,7 @@ Her kommer det info snart. Jeg lover!
 
 ## Rotasjonsakse
 
-Vi har en rotasjonsakse, men vi får den ikke koblet til :sad:. Maskinen detekterer aksen når det blir koblet til (du må restarte Datron programmet for at den skal bli detektert), men får feilmelding 1246 overload når den *homer*. Motorfeilmeldingen er mer spesifikt *overload drag error*. Kan se ut som det er H-broen til DC-motoren inni servoen som er problemet, men det er ennå usikkert. Har sjekket DC-motoren, rotasjonsenkoderen og endestoppet, og de funker fint. Ser også ut som logikken til servoen fungerer ettersom maskinen får koblet seg til og får feilmeldingsdata fra servoen. 
+Vi har en rotasjonsakse, men vi får den ikke koblet til :disappointed:. Maskinen detekterer aksen når det blir koblet til (du må restarte Datron programmet for at den skal bli detektert), men får feilmelding 1246 overload når den *homer*. Motorfeilmeldingen er mer spesifikt *overload drag error*. Kan se ut som det er H-broen til DC-motoren inni servoen som er problemet, men det er ennå usikkert. Har sjekket DC-motoren, rotasjonsenkoderen og endestoppet, og de funker fint. Ser også ut som logikken til servoen fungerer ettersom maskinen får koblet seg til og får feilmeldingsdata fra servoen. 
 
 Har tatt kontakt med Datron, men har ikke kommet frem til noen tekniker enda (Datron sin kundeservice suuuger). Tipper det beste er å spørre om de har og kan sende et nytt kretskort til servoen.
 
