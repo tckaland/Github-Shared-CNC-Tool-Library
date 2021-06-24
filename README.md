@@ -18,6 +18,7 @@ I readme-filen (filen du leser nå :astonished:) finner du også info om temaene
 - [Laste inn og starte kutteprogram](#Laste-inn-og-starte-kutteprogram)
 - [Justere hastighet og kjøling under programkjøring](#Justere-hastighet-og-kjøling-under-programkjøring)
 - [Skru av maskinen](#Skru-av-maskinen)
+- [Manuelt verktøyskifte under programkjøring](#Manuelt-verktøyskifte-under-programkjøring)
 - [Utføre enkle kutt direkte på CNCen](#Utføre-enkle-kutt-direkte-på-CNCen)
 - [Andre festemetoder](#Andre-festemetoder)
 - [Lagre og laste inn nullpunkt](#Lagre-og-laste-inn-nullpunkt)
@@ -129,7 +130,7 @@ Slik går du frem for å lage en *setup*:
 
 3. Velg hva som skal være nullpunkt og X-, Y-, og Z-akse i setupen. På vår CNC peker Z-aksen oppover, X-aksen går fra venstre mot høyre og Y-aksen går fra helt fremme i maskinen og innover bak i maskinen. Du må altså velge X-, Y-, og Z-akse på modellen din slik at Z peker opp og X og Y peker til siden og bak.
     - For å overstyre orienteringen på modellen som automatisk blir satt, trykk på *orientation* under *Work Coordinate System (WCS)* og velg *select z axis/plane & x axis*. Velg deretter hva som skal være referansene for Z-aksen og X-aksen. Dersom aksene peker feil vei, huk av *flip axis* på den aksen som det gjelder.
-    - For å velge hva som skal være nullpunkt i modellen din, trykk på *origin* og velg hva slags type nullpunkt du vil ha. Her kan du velge mellom *model origin*, *selected point*, *model box point* og *stock box point*. Som oftest så er det enklest og best å bruke *stock box point*. Deretter velger du hvor på *stocken* nullpunktet ditt skal være. Her er det som oftest enklest og best å velge det nederste venstre hjørnet som ligger på toppen av *stocken* din.
+    - For å velge hva som skal være nullpunkt i modellen din, trykk på *origin* og velg hva slags type nullpunkt du vil ha. Her kan du velge mellom *model origin*, *selected point*, *model box point* og *stock box point*. Som oftest så er det enklest og best å bruke *stock box point*. Deretter velger du hvor på *stocken* nullpunktet ditt skal være. Her er det som oftest enklest og best å velge det nederste venstre hjørnet som ligger på toppen av *stocken* din. Se bilde under :point_down:
     -  Trykk på *stock-fanen*![Stock Tab](.Images/StockTab.png) for å definere hvor stor *stock* du skal ha. Her er det igjen ganske mange forskjellige alternativer, men det funker ofte greit å bare velge *relative size box* og sette på et par millimeter *offset* på toppen og sidene av *stocken*.
     <br>En setup vil som oftest se sånn ut :point_down:
     <br><br>![Setup Finished](.Images/SetupCorrect.png)<br>
@@ -155,7 +156,7 @@ Det å generere kutteoperasjoner er et veldig stort felt innen CNCmaskinering, o
 3. Når du har valgt en type strategi å bruke så får du opp et vindu med masse variabler :point_down:
 <br><br><img src=".Images/ToolpathWindow.png" width="200">
 <br><br>Det første du må gjøre i dette vinduet er å velge et verktøy fra verktøysbiblioteket. Dette gjøres ved å trykke på *Select* under *tool* og velge det verktøyet du vil bruke i verktøysbibliotekvinduet som popper opp. Deretter kan du velge en *preset* under *feed & speed* eller skrive inn egne variabler. Det beste er å ta utgangspunkt i en *preset*, for så å forandre på de variablene som det trengs å forandre på. Her må du bare prøve deg frem!
-<br><h6>:bulb: Verktøyene med nr **1-13** er **interne** verktøy og CNCmaskinen bytter automatisk mellom disse verktøyene når den kjører de forskjellige kutteoperasjonene. Verktøyene med nr **20 og oppover** er **eksterne** verktøy og må byttes manuelt underveis. Når det er tid for verktøysbytte vil CNCmaskinen legge fra seg det nåværende verktøyet, for så å instruere deg om å sette inn det nye eksterne verktøyet. </h6>
+<br><h6>:bulb: Verktøyene med nr **1-13** er **interne** verktøy og CNCmaskinen bytter automatisk mellom disse verktøyene når den kjører de forskjellige kutteoperasjonene. Verktøyene med nr **20 og oppover** er **eksterne** verktøy og må byttes manuelt underveis. Når det er tid for et eksternt verktøysbytte vil CNCmaskinen legge fra seg det nåværende verktøyet, for så å instruere deg om å sette inn det nye eksterne verktøyet. Se [manuelt verktøyskifte under programkjøring](#Manuelt-verktøyskifte-under-programkjøring)</h6>
 
 4. Gå igjennom de forksjellige fanene og se og prøv deg frem med alle variablene som finnes der. To variabler å legge seg merke til er *stepdown* og *stepover*. *Stepdown* er hvor mye fresen skal dykke ned i materialet når den kutter, mens *stepover* er hvor mye fresen skal kutte på siden for hver gang den går over et område.  
 
@@ -202,7 +203,7 @@ For å kjøre en simulering, velg de *setupene* du vil simulere (eventuelt spesi
 
 <br>For å eksportere kutteprogrammet ditt, velg den *setupen* du vil eksportere og trykk på eksporteringsknappen ![Export button](.Images/ExportButton.png). Her må du velge *personal posts* som *source* og deretter velge "IPD DATRON M8" som *post processor*. Deretter kan du gi kuttefilen din et navn under *program number* og trykke på ok for å eksportere programmet til G-kode.
 
-:bulb: Hvis du skifter navn på filen når du velger lagringsplass, husk å end navnet med .mcr. Hvis .mcr-endingen ikke er med så vil ikke CNCen kunne åpne filen.
+:bulb: Hvis du skifter navn på filen når du velger hvor du skal lagre filen, husk å end navnet med *.mcr*. Hvis .mcr-endingen ikke er med så vil ikke CNCen kunne åpne filen.
 
 <br>
 
@@ -212,7 +213,22 @@ For å kjøre en simulering, velg de *setupene* du vil simulere (eventuelt spesi
 
 ## Oppstart av CNC-maskinen
 
-Her kommer det info snart. Jeg lover!
+For å bruke CNCen må den slås på, kontrollpcen inni CNCen må koble seg til CNCen sitt kontrollsystem og CNCen må utføre en oppstartskalibrering. Alt dette gjøres ved å utføre stegene under :point_down:
+
+1. Skru på strømmen til CNCmaskinen ved å vri den store strømbryteren bak på CNCmaskinen (Stor blå vribryter). Når bryteren vris på så skal det være ganske åpenbart at CNCen skrur seg på, dvs. lyser slår seg på, rare lyder starter, pc-skjermen viser at pcen starter osv.
+
+2. Trykk på den grønne knappen på fremsiden av CNCen. Denne knappen skrur på *emergency relay*, som må være på for at CNCen skal kunne bevege på seg.
+
+3. Når PCen har startet opp (dette tar litt tid), start programmet *Datron* som ligger på skrivebordet på PCen.
+
+4. Trykk OK på advarselen *Machine will move after confirmation*. Nå starter CNCen *homing*prosessen sin. Dersom maskinen ikke beveger på seg, skru opp hastigheten på CNCen (Se [manuell styring](#Manuell_styring)).
+
+5. Etter *homing*sekvensen åpner verktøymagasinet seg og det kommer en *touch-tool-sensor*instruksjon. Åpne da CNCen og trykk **lett** ned på verktøysensoren som ligger inni verktøymagasinet.
+
+6. Se etter hvilket verktøy som ligger i spindelen (kuttehodet til CNCen) og sjekk at det er det samme som står på PC-skjermen. Hvis det er det samme, trykk OK. Det verktøynummeret ikke stemmer overens, bruk piltastene til å velge det verktøyet som står i spindelen og trykk på OK.
+<br><h6>:bulb:Du finner verktøysnummeret på verktøyet i spindelen ved å se hvilken plass i verktøysmagasinet som er tomt. Dersom ingen er tomme så er verktøyet i spindelen nr 0 (dvs eksternt verktøy).</h6><br>
+
+7. CNCen er nå skrudd å og du burde se et slikt :point down: vindu på pcskjermen.
 
 <br>
 
@@ -274,6 +290,14 @@ Her kommer det info snart. Jeg lover!
 ## Skru av maskinen
 
 Her kommer det info snart. Jeg lover!
+
+<br>
+
+---
+
+<br>
+
+## manuelt verktøyskifte under programkjøring
 
 <br>
 
@@ -356,6 +380,8 @@ Her kommer det info snart. Jeg lover!
 Vi har en rotasjonsakse, men vi får den ikke koblet til :disappointed:. Maskinen detekterer aksen når det blir koblet til (du må restarte Datron programmet for at den skal bli detektert), men får feilmelding 1246 overload når den *homer*. Motorfeilmeldingen er mer spesifikt *overload drag error*. Kan se ut som det er H-broen til DC-motoren inni servoen som er problemet, men det er ennå usikkert. Har sjekket DC-motoren, rotasjonsenkoderen og endestoppet, og de funker fint. Ser også ut som logikken til servoen fungerer ettersom maskinen får koblet seg til og får feilmeldingsdata fra servoen. 
 
 Har tatt kontakt med Datron, men har ikke kommet frem til noen tekniker enda (Datron sin kundeservice suuuger). Tipper det beste er å spørre om de har og kan sende et nytt kretskort til servoen.
+
+**Update 23.06.2021** Har bestilt nytt driverkort til rotasjonsaksen fra Datron/ABC-maskin. Kostet 14500kr :dizzy_face:
 
 <br>
 
