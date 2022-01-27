@@ -50,8 +50,9 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
    <br><img src=.Images/GitHubClone.gif>
    <br><h6>:bulb: GitHub Desktop kan lastes ned **[her](https://desktop.github.com/)**</h6>
 
-2. Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**.<br>
-   ###### :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder**
+2. **For Mac/OSX** <br>Lagre repoet i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local/Github-Shared-Tool-Library**.<br>
+   ###### :bulb: Dersom Library mappen ikke vises i Finder, trykk **cmd + J** i Finder og huk av **Show Library Folder** <br><br>
+   **For Windows** <br>Lagre repoet i **DittBrukernavn\AppData\Roaming\Autodesk\CAM360\libraries\Local\Github-Shared-Tool-Library**
    ![Add repo in GitHub Desktop](.Images/GitHubDesktopAddRepo.png)
 
 
@@ -64,6 +65,15 @@ Verktøysbiblioteket er en liste over alle fresestålene (aka verktøyene) som v
 4. Oppdater repoet med jevne mellomrom gjennom git for å holde verktøybiblioteket og *feeds & speeds* oppdatert. 
    <br>Dersom du bruker GitHub Desktop, så gjøres dette enkelt ved å trykke på knappen "fetch origin".
 
+
+### Alternativ måte
+###### :warning: *Med denne måten så vil man ikke kunne oppdatere verktøybiblioteket igjennom git fortløpende*
+
+1. Last ned repoen som en .zip og ekspander .zip-folderen.
+2. Åpne Fusion 360, gå til **CAM/Manufature-arbeidsområdet** og trykk på ![Tool Library Button](.Images/ToolLibrarySymbol.png) for å komme til *Tool Library*. 
+3. Importer verkstedet sitt verktøysbibliotek for CNCmaskinen ved å trykke på importer ![Import Button](.Images/ImportLibrarySymbol.png) og velg **IPD Datron.json** som befinner seg i *.zip* filen du lastet ned fra GitHub.
+
+<br>
 
 ### Alternativ måte
 ###### :warning: *Med denne måten så vil man ikke kunne oppdatere verktøybiblioteket igjennom git fortløpende*
@@ -92,9 +102,11 @@ Postprosessoren er en liten kodesnutt som oversetter kutteopreasjonene dine i Fu
 
 2. Når repoet er lastet ned, åpne Fusion360, gå til *manufacture-arbeidsområdet* og trykk på *post library* ![Post Library Button](.Images/PostLibraryButton.png) som ligger i *manage* fanen.
 
-3. Trykk på Import-knappen ![Import button](.Images/Import.png) i fanen som kommer opp, og velg filen IPDDatronM8.cps som ligger i repoen/folderen som du lastet ned fra GitHub.
+3. Gå til My posts -> Local i menyen til venstre.
+
+4. Trykk på Import-knappen ![Import button](.Images/Import.png) i fanen som kommer opp, og velg filen IPDDatronM8mcr.cps som ligger i repoen/folderen som du lastet ned fra GitHub.
 <br><img src=".Images/AddPostProcessor.png" width="49%"> <img src=".Images/AddPostProcessorSelected.png" width="49%">
-<br><h6>:bulb: Dersom du har følgt fremgangsmåten som vist [her](#Hvordan-importere-verktøysbibliotek-til-Fusion360), så skal folderen ligge i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local**</h6>
+<br><h6>:bulb: Dersom du har følgt fremgangsmåten som vist [her](#Hvordan-importere-verktøysbibliotek-til-Fusion360), så skal folderen ligge i **DittBrukernavn/Library/Application Support/Autodesk/CAM360/libraries/Local/Github_Shared-Tool-Library** dersom du har Mac, eller i **C:\Users\DittBrukermavn\AppData\Roaming\Autodesk\CCAM360\libraries\Local\Github_Shared-Tool-Library**</h6>
 
 4. Ferdig! Postprosessoren for CNCen skal nå være tilgjengelig både i *Post Library* vinduet :point_down: og som en valgbar postprosessor når du trykker på *Post Process* ![Post Process button](.Images/PostProcess.png) når du skal eksportere et CNCprogram.
 <br><img src=".Images/DatronM8Added.png">
@@ -201,7 +213,7 @@ For å kjøre en simulering, velg de *setupene* du vil simulere (eventuelt spesi
 
 <img src=".Images/Export.gif">
 
-<br>For å eksportere kutteprogrammet ditt, velg den *setupen* du vil eksportere og trykk på eksporteringsknappen ![Export button](.Images/ExportButton.png). Her må du velge *personal posts* som *source* og deretter velge "IPD DATRON M8" som *post processor*. Deretter kan du gi kuttefilen din et navn under *program number* og trykke på ok for å eksportere programmet til G-kode.
+<br>For å eksportere kutteprogrammet ditt, velg den *setupen* du vil eksportere og trykk på eksporteringsknappen ![Export button](.Images/ExportButton.png). Her må du velge *personal posts* som *source* og deretter velge "IPD DATRON M8" som *post processor*. Deretter kan du gi kuttefilen din et navn under *program number* og trykke på ok(Mac)/post(windows) for å eksportere programmet til G-kode.
 
 :bulb: Hvis du skifter navn på filen når du velger hvor du skal lagre filen, husk å end navnet med *.mcr*. Hvis .mcr-endingen ikke er med så vil ikke CNCen kunne åpne filen.
 

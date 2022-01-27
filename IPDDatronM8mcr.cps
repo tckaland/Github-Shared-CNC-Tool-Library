@@ -54,6 +54,7 @@ properties = {
   writeCoolantCommands: false, // en/disable coolant code output for the entire program
   _got4thAxis: false, // specifies if the machine has a 4th axis
   _4thAxisRotatesAroundX: true, // specifies if the 4th axis rotates around X or Y
+  performRewinds: true, // Enables the onRewindMachine logic.
   _got5thAxis: false, // specifies if the machine has a 5th axis
   minimumSpindleRPM: 6000 // specifies the lowest available rpm for the spindle
 };
@@ -164,6 +165,7 @@ var previousDPMFeed = 0; // previously output DPM feed
 var dpmFeedToler = 0.5; // tolerance to determine when the DPM feed has changed
 // var previousABC = new Vector(0, 0, 0); // previous ABC position if maintained in post, don't define if not used
 var forceOptimized = undefined; // used to override optimized-for-angles points (XZC-mode)
+var performRewinds = true;
 
 /** Calculate the multi-axis feedrate number. */
 function getMultiaxisFeed(_x, _y, _z, _a, _b, _c, feed) {
@@ -461,7 +463,7 @@ function onOpen() {
         }
       );
     } else {
-      aAxis = createAxis({coordinate:1, table:true, axis:[properties._4thAxisRotatesAroundX ? 1 : 0, properties._4thAxisRotatesAroundX ? 0 : 1, 0], range:[-360, 360], preference:1});
+      aAxis = createAxis({coordinate:1, table:true, axis:[properties._4thAxisRotatesAroundX ? 1 : 0, properties._4thAxisRotatesAroundX ? 0 : 1, 0], range:[-360, 360], cyclic:true, preference:1});
     }
 
     var cAxis = createAxis({coordinate:2, table:true, axis:[0, 0, -1], range:[-360, 360], cyclic:true, preference:0});
@@ -1178,7 +1180,7 @@ function forceWorkPlane() {
 }
 
 /*
-function onRewindMachine() {
+function onRewindMachine(a, b, c) {
   writeComment("REWIND");
 }
 */
